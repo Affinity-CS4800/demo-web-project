@@ -137,4 +137,9 @@ public class WebController {
 		return "Bryce";
 	}
 
+	@RequestMapping(value = "/cs480/thinh", method = RequestMethod.GET)
+	String thinhRequest() {
+		return "Thinh";
+	}
+
 }
