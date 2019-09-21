@@ -132,4 +132,9 @@ public class WebController {
 		return modelAndView;
 	}
 
+	@RequestMapping(value = "/cs480/bryce", method = RequestMethod.GET)
+	String bryceRequest() {
+		return "Bryce";
+	}
+
 }
