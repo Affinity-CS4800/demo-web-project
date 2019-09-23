@@ -148,7 +148,7 @@ public class WebController {
 	}
 
 	@RequestMapping(value = "/cs480/jordan", method = RequestMethod.GET)
-	String bryceRequest() {
+	String jordanRequest() {
 		return "Jordan";
 	}
 
