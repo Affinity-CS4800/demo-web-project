@@ -151,5 +151,10 @@ public class WebController {
 	String jordanRequest() {
 		return "Jordan";
 	}
+	
+	@RequestMapping(value = "/cs480/samuel", method = RequestMethod.GET)
+	String samuelRequest() {
+		return "Samuel";
+	}
 
 }
