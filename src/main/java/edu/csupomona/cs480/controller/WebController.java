@@ -141,5 +141,10 @@ public class WebController {
 	String thinhRequest() {
 		return "Thinh";
 	}
+	
+	@RequestMapping(value = "/cs480/kiana", method = RequestMethod.GET)
+	String kianaRequest() {
+		return "Kiana";
+	}
 
 }
